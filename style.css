@@ -1,4 +1,40 @@
-body {
-  margin: 0; }
+header {
+  background-color: #f3f3f3;
+  height: 40px;
+  font-size: 9px; }
+  header h1 {
+    display: inline;
+    padding-top: 50px; }
+  header nav {
+    float: right;
+    display: inline; }
+  header nav ul {
+    list-style: none;
+    display: inline; }
+  header a {
+    text-decoration: none;
+    color: black; }
+
+.octocat {
+  text-align: center; }
+  .octocat img {
+    display: block;
+    width: 50%;
+    margin: 0 auto; }
+
+.octodex {
+  width: 50%;
+  background-color: yellow;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0; }
+
+@media (min-width: 800px) {
+  li {
+    float: left;
+    width: 50%; } }
+@media (min-width: 1000px) {
+  li {
+    width: 33.333%; } }
 
 /*# sourceMappingURL=style.css.map */

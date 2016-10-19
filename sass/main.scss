@@ -1,3 +1,9 @@
-body {
-  margin: 0;
-}
+@import "variables";
+@import "header";
+@import "octocat-list";
+@import "unorder-list";
+// @import "mixins";
+// @import "header";
+// @import "articles";
+// @import "footer";
+@import "responsive-stuff";
