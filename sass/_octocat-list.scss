@@ -2,12 +2,15 @@
 
 
   text-align: center;
+  border-bottom: 1px solid $themeColor;
 
 
   img {
     display: block;
     width: $halfScreen;
     margin: 0 auto;
+    padding: 10px;
+    border: 1px solid $themeColor;
 
   }
 

@@ -1,40 +1,41 @@
 header {
   background-color: #f3f3f3;
   height: 40px;
-  font-size: 9px; }
+  font-size: 9px;
+  padding: 15px 10px 0 10px;
+  border-radius: 10px; }
   header h1 {
     display: inline;
-    padding-top: 50px; }
+    margin: 0;
+    font-weight: 500; }
+  header span {
+    font-weight: bold; }
   header nav {
-    float: right;
-    display: inline; }
-  header nav ul {
+    float: right; }
+  header nav ul li {
+    font-size: 12px;
     list-style: none;
-    display: inline; }
+    display: inline;
+    font-weight: bold;
+    margin-left: 8px; }
   header a {
     text-decoration: none;
     color: black; }
 
 .octocat {
-  text-align: center; }
+  text-align: center;
+  border-bottom: 1px solid #f3f3f3; }
   .octocat img {
     display: block;
     width: 50%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #f3f3f3; }
 
 .octodex {
   width: 50%;
-  background-color: yellow;
   margin: 0 auto;
   list-style: none;
   padding: 0; }
-
-@media (min-width: 800px) {
-  li {
-    float: left;
-    width: 50%; } }
-@media (min-width: 1000px) {
-  li {
-    width: 33.333%; } }
 
 /*# sourceMappingURL=style.css.map */
