@@ -41,12 +41,17 @@ header {
 
 footer {
   font-size: .7em; }
-  footer h3 {
+  footer .octonumber {
     display: inline;
     color: #b4b5b3; }
   footer ul {
-    list-style: none; }
-  footer li img {
+    list-style: none;
+    padding-left: 0;
     width: 50px; }
+  footer cite a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    font-style: normal; }
 
 /*# sourceMappingURL=style.css.map */

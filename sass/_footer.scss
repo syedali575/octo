@@ -2,7 +2,7 @@ footer {
 font-size: .7em;
 
 
-  h3 {
+  .octonumber {
     display: inline;
     color: #b4b5b3
 
@@ -10,10 +10,16 @@ font-size: .7em;
 
   ul {
     list-style: none;
-  }
-
-  li img {
+    padding-left: 0;
     width: 50px;
   }
+
+  cite a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    font-style: normal;
+  }
+
 
 }
