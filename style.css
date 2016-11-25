@@ -3,7 +3,8 @@ header {
   height: 40px;
   font-size: 9px;
   padding: 15px 10px 0 10px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin: 5px; }
   header h1 {
     display: inline;
     margin: 0;
@@ -37,5 +38,15 @@ header {
   margin: 0 auto;
   list-style: none;
   padding: 0; }
+
+footer {
+  font-size: .7em; }
+  footer h3 {
+    display: inline;
+    color: #b4b5b3; }
+  footer ul {
+    list-style: none; }
+  footer li img {
+    width: 50px; }
 
 /*# sourceMappingURL=style.css.map */
