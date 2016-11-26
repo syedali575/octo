@@ -3,14 +3,17 @@
 
   text-align: center;
   border-bottom: 1px solid $themeColor;
+  margin-bottom: 15px;
 
 
-  img {
+  a img {
     display: block;
     width: $halfScreen;
+    min-width: 130px;
     margin: 0 auto;
     padding: 10px;
     border: 1px solid $themeColor;
+    margin-bottom: 10px;
 
   }
 

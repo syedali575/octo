@@ -1,14 +1,25 @@
-// 
-// // put media queries down here
-// @media (min-width: 800px) {
-//   li {
-//     float: left;
-//     width: 50%;
-//   }
-// }
+
+// put media queries down here
 //
-// @media (min-width: 1000px) {
+//
+
+
+
+@media (min-width: 800px) {
+  li .octocat{
+    float: left;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  li .octocat {
+    width: 33.333%;
+  }
+}
+
+// @media (max-width: 500px) (min-width: 100px) {
 //   li {
-//     width: 33.333%;
+//     width: 50%;
 //   }
 // }
