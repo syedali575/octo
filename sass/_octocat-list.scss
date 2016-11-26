@@ -1,28 +1,21 @@
 .octocat {
+    border-bottom: 2px solid $themeColor;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding-left: 10px;
 
 
-  text-align: center;
-  border-bottom: 1px solid $themeColor;
-  margin-bottom: 15px;
 
 
   a img {
     display: block;
-    width: $halfScreen;
-    min-width: 130px;
+    width: 100%;
     margin: 0 auto;
-    padding: 10px;
-    border: 1px solid $themeColor;
-    margin-bottom: 10px;
+    border: 2px solid $themeColor;
+    box-sizing: border-box;
+    margin-bottom: 5px;
 
   }
-
-
-
-
-
-
-
-
 
 }

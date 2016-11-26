@@ -24,17 +24,18 @@ header {
     color: black; }
 
 .octocat {
-  text-align: center;
-  border-bottom: 1px solid #f3f3f3;
-  margin-bottom: 15px; }
+  border-bottom: 2px solid #f3f3f3;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding-left: 10px; }
   .octocat a img {
     display: block;
-    width: 50%;
-    min-width: 130px;
+    width: 100%;
     margin: 0 auto;
-    padding: 10px;
-    border: 1px solid #f3f3f3;
-    margin-bottom: 10px; }
+    border: 2px solid #f3f3f3;
+    box-sizing: border-box;
+    margin-bottom: 5px; }
 
 .octodex {
   width: 50%;
@@ -43,7 +44,12 @@ header {
   padding: 0; }
 
 footer {
-  font-size: .7em; }
+  font-size: .7em;
+  text-align: center;
+  display: block;
+  min-width: 150px;
+  margin: 0 auto;
+  margin-bottom: 5%; }
   footer .octonumber {
     display: inline;
     color: #b4b5b3;
@@ -52,7 +58,6 @@ footer {
   footer ul {
     list-style: none;
     padding-left: 0;
-    width: 50px;
     display: inline; }
   footer ul li {
     display: inline; }
@@ -64,16 +69,19 @@ footer {
     font-size: .2em; }
   footer cite {
     font-style: normal;
-    font-size: .1em; }
+    font-size: .1em;
+    float: right; }
   footer .authors img {
     width: 20px; }
+  footer h3 {
+    float: left; }
 
 @media (min-width: 800px) {
-  li {
+  .octocat {
     float: left;
     width: 50%; } }
 @media (min-width: 1000px) {
-  li {
+  .octocat {
     width: 33.333%; } }
 
 /*# sourceMappingURL=style.css.map */
