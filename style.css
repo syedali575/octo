@@ -43,8 +43,7 @@ header {
   padding: 0; }
 
 footer {
-  font-size: .7em;
-  display: inline; }
+  font-size: .7em; }
   footer .octonumber {
     display: inline;
     color: #b4b5b3;
@@ -63,15 +62,18 @@ footer {
     color: #000000;
     font-style: normal;
     font-size: .2em; }
-  footer img.author {
+  footer cite {
+    font-style: normal;
+    font-size: .1em; }
+  footer .authors img {
     width: 20px; }
 
 @media (min-width: 800px) {
-  li .octocat {
+  li {
     float: left;
     width: 50%; } }
 @media (min-width: 1000px) {
-  li .octocat {
+  li {
     width: 33.333%; } }
 
 /*# sourceMappingURL=style.css.map */

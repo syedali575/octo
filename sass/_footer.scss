@@ -1,6 +1,6 @@
 footer {
 font-size: .7em;
-display: inline;
+
 
 
 
@@ -32,7 +32,12 @@ display: inline;
     font-size: .2em;
   }
 
-  img.author {
+  cite {
+    font-style: normal;
+    font-size: .1em;
+  }
+
+  .authors img {
     width: 20px;
   }
 
