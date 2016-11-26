@@ -1,10 +1,29 @@
 .octocat {
-    border-bottom: 2px solid $themeColor;
+
     display: inline-block;
     box-sizing: border-box;
     margin-bottom: 10px;
-    padding-left: 10px;
 
+
+    .wrapper {
+      border-bottom: 2px solid $themeColor;
+      margin-right: 5px;
+    }
+
+    .octocatImage {
+      display: block;
+    }
+
+      .octocatImage::after {
+        content: '';
+        display: block;
+        margin-left: 92%;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 5px 0 5px;
+        border-color: #606163 transparent transparent transparent;
+      }
 
 
 
@@ -14,7 +33,7 @@
     margin: 0 auto;
     border: 2px solid $themeColor;
     box-sizing: border-box;
-    margin-bottom: 5px;
+    // margin-bottom: 5px;
 
   }
 

@@ -1,9 +1,9 @@
 footer {
   font-size: .7em;
-  text-align: center;
-  display: block;
+  display: flex;
+  align-items: center;
   // width: $halfScreen;
-  min-width: 150px;
+  // min-width: 150px;
   margin: 0 auto;
   margin-bottom: 5%;
 
@@ -15,6 +15,7 @@ footer {
     color: #b4b5b3;
     font-size: .1em;
     padding-right: 5%;
+    flex-grow: 1;
 
   }
 
@@ -40,7 +41,9 @@ footer {
   cite {
     font-style: normal;
     font-size: .1em;
-    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   .authors img {

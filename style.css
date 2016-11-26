@@ -24,18 +24,29 @@ header {
     color: black; }
 
 .octocat {
-  border-bottom: 2px solid #f3f3f3;
   display: inline-block;
   box-sizing: border-box;
-  margin-bottom: 10px;
-  padding-left: 10px; }
+  margin-bottom: 10px; }
+  .octocat .wrapper {
+    border-bottom: 2px solid #f3f3f3;
+    margin-right: 5px; }
+  .octocat .octocatImage {
+    display: block; }
+  .octocat .octocatImage::after {
+    content: '';
+    display: block;
+    margin-left: 92%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 5px 0 5px;
+    border-color: #606163 transparent transparent transparent; }
   .octocat a img {
     display: block;
     width: 100%;
     margin: 0 auto;
     border: 2px solid #f3f3f3;
-    box-sizing: border-box;
-    margin-bottom: 5px; }
+    box-sizing: border-box; }
 
 .octodex {
   width: 50%;
@@ -45,16 +56,16 @@ header {
 
 footer {
   font-size: .7em;
-  text-align: center;
-  display: block;
-  min-width: 150px;
+  display: flex;
+  align-items: center;
   margin: 0 auto;
   margin-bottom: 5%; }
   footer .octonumber {
     display: inline;
     color: #b4b5b3;
     font-size: .1em;
-    padding-right: 5%; }
+    padding-right: 5%;
+    flex-grow: 1; }
   footer ul {
     list-style: none;
     padding-left: 0;
@@ -70,17 +81,19 @@ footer {
   footer cite {
     font-style: normal;
     font-size: .1em;
-    float: right; }
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
   footer .authors img {
     width: 20px; }
   footer h3 {
     float: left; }
 
-@media (min-width: 800px) {
+@media (min-width: 500px) {
   .octocat {
     float: left;
     width: 50%; } }
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   .octocat {
     width: 33.333%; } }
 
